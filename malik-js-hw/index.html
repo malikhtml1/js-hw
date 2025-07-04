@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body>
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "showImg(this)" onmouseout = "document.getElementById('image').innerHTML = 'Hover over an image below to display here.'; document.getElementById('image').style.backgroundImage = 'none';">>
+	
+	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "showImg(this)" onmouseout = "document.getElementById('image').innerHTML = 'Hover over an image below to display here.'; document.getElementById('image').style.backgroundImage = 'none';">>>
+	
+	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "showImg(this)" onmouseout = "document.getElementById('image').innerHTML = 'Hover over an image below to display here.'; document.getElementById('image').style.backgroundImage = 'none';">>>
+
+  <script  src="js/gallery.js"></script>
+
+</body>
+</html>
+
+
+<!-- <img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()"> -->
